@@ -57,12 +57,12 @@ MainWindow::MainWindow(QWidget *parent)
     QLabel* label3 = new QLabel("Введите свой возраст:", this);
     label3->setGeometry(100, 350, 300, 15);
     QSpinBox* spinbox1 = new QSpinBox(this);
-    spinbox1->setGeometry(100, 370, 50, 30);
+    spinbox1->setGeometry(100, 370, 100, 30);
     spinbox1->setRange(1, 150);
     QLabel* label4 = new QLabel("Введите свой рост (в метрах):", this);
     label4->setGeometry(400, 350, 300, 15);
     QDoubleSpinBox* spinbox2 = new QDoubleSpinBox(this);
-    spinbox2->setGeometry(400, 370, 70, 30);
+    spinbox2->setGeometry(400, 370, 150, 30);
     spinbox2->setRange(0.0, 4.0);
     spinbox2->setDecimals(2);
     spinbox2->setSingleStep(0.1);
